@@ -55,7 +55,31 @@
                 <option value="Steak">Steak</option>
             </select>
         </p>
+        <p>
+            <label for="volume">Volume</label>
+            <input type="range" name="volume" id="volume" min="0" max="20">
+        </p>
+        <p>
+            <label for="request">Any Special Request</label>
+            <br>
+            <textarea name="rquest" id="request" cols="30" rows="10">Type your request</textarea>
+        </p>
         <button type="submit">Submit</button>
+    </form>
+
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+        <label for="first">Enter your First Name</label>
+        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="8" maxlength="20">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <button type="submit">Register</button>
     </form>
 
 </body>
