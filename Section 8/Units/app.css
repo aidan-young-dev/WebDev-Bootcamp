@@ -1,0 +1,18 @@
+section {
+    background-color: rgb(124, 177, 223);
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: rgb(74, 113, 148);
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
