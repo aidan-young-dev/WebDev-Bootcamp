@@ -24,3 +24,7 @@ span {
     background-color: #d33368;
     color: #ffb3cd;
 }
+
+.post a {
+    color: #00656e;
+}
