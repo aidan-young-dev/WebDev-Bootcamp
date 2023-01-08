@@ -1,0 +1,7 @@
+span {
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    display: inline-block;
+    margin: 100px;
+}
