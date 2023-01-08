@@ -27,4 +27,32 @@ span {
 
 .post a {
     color: #00656e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 + button {
+    font-size: 20px;
+}
+
+.post a:hover {
+    color:#d33368;
+    text-decoration: line-through;
+
+}
+
+.post button:hover {
+    background-color: #53d333;
+}
+
+.post button:active {
+    background-color: #d33368;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #d0d7da;
+}
+
+.post h2::first-letter{
+    font-size: 50px;
 }
